@@ -1,0 +1,40 @@
+{
+  "name": "angular-db",
+  "version": "1.0.0",
+  "description": "angular.js wrapper for indexeddb in-browser database",
+  "main": "js/angular-db.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasoncotton/angular-db.git"
+  },
+  "keywords": [
+    "angular",
+    "angularjs",
+    "indexeddb",
+    "db.js"
+  ],
+  "author": "Amo Wo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jasoncotton/angular-db/issues"
+  },
+  "homepage": "https://github.com/jasoncotton/angular-db#readme",
+  "dependencies": {
+    "db.js": "^0.15.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.7",
+    "jasmine": "^2.4.1",
+    "jasmine-core": "^2.4.1",
+    "karma": "~0.13.3",
+    "karma-jasmine": "^0.3.8",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "karma-spec-reporter": "0.0.26",
+    "phantomjs": "^2.1.7",
+    "phantomjs-prebuilt": "^2.1.7"
+  }
+}
